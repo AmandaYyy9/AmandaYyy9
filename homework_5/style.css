@@ -37,6 +37,9 @@ header {
 }
 
 /*picture on homepage*/
+/*picture rotation learned from stackoverflow
+https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
+
 .rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
