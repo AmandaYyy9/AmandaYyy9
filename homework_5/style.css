@@ -7,15 +7,16 @@
 
 body { 
   margin: 0;
-  /*font-family: Arial, Helvetica, sans-serif;*/
 }
 
+/*top header*/
 header {
     overflow: hidden;
     background-color: #E0BA87;
     padding: 30px;
 }
 
+/*Fluff Staff*/
 .name {
 
   color: #736654;  
@@ -25,6 +26,7 @@ header {
   font:Baskerville;
 }
 
+/*menue on header*/
 .menu {
   display:inline;
   color: #736654;  
@@ -34,6 +36,7 @@ header {
   font:sans-serif;
 }
 
+/*picture on homepage*/
 .rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -47,6 +50,7 @@ header {
     height:900px;
 }
 
+/*round pillow on homepage*/
 .rp {
 	position:absolute;
 	bottom:400px;
@@ -57,6 +61,7 @@ header {
 
 }
 
+/*round pillow button*/
 .button {
     position:relative;
     top: 380px;
@@ -70,13 +75,14 @@ header {
 }
 
 
-
+/*keep fluffing*/
 .kf{
 	position:absolute;
 	color:#7E7E7E;
 	font: bold 35px Baskerville;
 }
 
+ /*register email*/
 .email{
 	position:absolute;
     font-size:12px;
@@ -86,6 +92,7 @@ header {
     padding: 9px 60px;
     border: 2px solid #807E63;
 }
+/*subscribe*/
 .sub{
 	position:absolute;
     font-size:15px;
@@ -95,6 +102,7 @@ header {
     padding: 9.5px 33px;
 }
 
+/*basic font*/
 .basic{
 	position:absolute;
 	font:18px Apple SD Gothic Neo;
@@ -102,6 +110,7 @@ header {
 	text-decoration: none;
 }
 
+/*bigger font*/
 .basic-big{
 	position:absolute;
 	font:20px Apple SD Gothic Neo;
@@ -109,6 +118,7 @@ header {
 	text-decoration: none;
 }
 
+/*smaller font*/
 .basic-small{
 	position:absolute;
 	font:16px Apple SD Gothic Neo;
@@ -116,6 +126,7 @@ header {
 	text-decoration: none;
 }
 
+/*smaller button*/
 .button-small{
     position:relative;
     font:16px Apple SD Gothic Neo;
