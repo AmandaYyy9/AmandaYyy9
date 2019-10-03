@@ -53,7 +53,7 @@ header {
 /*round pillow on homepage*/
 .rp {
 	position:absolute;
-	bottom:400px;
+	top:250px;
 	left:320px;
 	color:white;
 	font: bold 80px Apple SD Gothic Neo;
