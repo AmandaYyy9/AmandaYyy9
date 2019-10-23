@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<!-- All images come from 
+	https://www.easyicon.net
+	https://www.pexels.com
+	https://www.freeimages.com
+	https://librestock.com-->
+
+<head>
+	<title>Fluff Stuff</title>
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<script src="web.js" type="text/javascript"></script>
+</head>
+
+<body onload="onLoad()">
+	
+	<!-- navigation bar -->
+	<div style="background-color: #E0BA87;position:absolute; top:0px; left:0px; width:1100px;height:63px;border:none; ">
+		<!-- navigation -->
+		<h2><a href="pillow.html" class="name">Fluff Stuff</a>
+		<a class="menu">About</a>
+		<a href="products.html" class="menu">Products</a>
+		<a class="menu">Contact</a>
+		</h2>
+		<!-- search -->
+		<img style="position:absolute;top:32px;right:350px;width:18px;height:18px;opacity: 0.5;" src="./imgs/find_magnifier_magnifying_glass_search_zoom_512px_1225492_easyicon.net.png" alt="search">
+		<!-- log in -->
+		<img style="position:absolute;top:33px;right:267px;width:50px;height:17px;" src="./imgs/Log%20in.png" alt="log in">
+		<!-- cart -->
+		<a href="cart.html"><img style="position:absolute;top:30px;right:217px;width:20px;height:20px;opacity: 0.5;" src="./imgs/cart_149px_1222590_easyicon.net.png" alt="cart"></a>
+		<!-- fav -->
+		<img style="position:absolute;top:30px;right:167px;width:20px;height:20px;opacity: 0.7;" src="./imgs/fav.png" alt="cart">
+		<!-- language -->
+		<img style="position:absolute;top:33px;right:117px;width:19px;height:13px;" src="./imgs/EN.png" alt="EN">
+	</div>
+
+	<!-- breadcrumb -->
+	<a href="pillow.html" class="basic" style="top:90px; left:70px;">Home  </a>
+	<a href="products.html" class="basic" style="top:90px; left:125px;"> > Products </a>
+	<div class="basic" style="top:90px; left:215px;"> > Couch Pillow </div>
+
+	<!-- picutre -->
+	<img id="picture" style="position:absolute;top:150px;left:130px;width:350px;height:270px;" src="" alt="pic">
+	<img id="leftArrow" style="position:absolute;top:260px;left:80px;width:40px;height:60px;" src="./imgs/la.png" alt="pic">
+	<img id="rightArrow" style="position:absolute;top:260px;left:490px;width:38px;height:60px;" src="./imgs/ra.png" alt="pic">
+
+	<img id="small1" style="position:absolute;top:450px;left:155px;width:80px;height:60px;" src="" alt="pic">
+	<img id="small2" style="position:absolute;top:450px;left:265px;width:80px;height:60px;" src="" alt="pic">
+	<img id="small3" style="position:absolute;top:450px;left:375px;width:80px;height:60px;" src="./imgs/z.png" alt="pic">
+
+	<!-- cart label -->
+	<img id="circle" style="position:absolute;top:22px;left:874px;width:17px;height:17px;" src="" alt="pic">
+	<div id="cartQuant" class="basic-small" style="top:23px;left:878px; color:white; font:13px Apple SD Gothic Neo;" > </div>
+
+	<!-- info -->
+	<div style="position:absolute;top:140px;left:600px;font:28px Apple SD Gothic Neo;
+	color: #747373;">Couch Pillow</div>
+	<div style="position:absolute;top:180px;left:600px;font:20px Apple SD Gothic Neo;
+	color: #747373;">$ 35</div>
+	<img style="position:absolute;top:215px;left:600px;width:100px;height:15px;" src="./imgs/Star.png" alt="pic">
+	<div class="basic" style="top:213px;left:720px;">5   &lt;10 reviews&gt; </div>
+
+	<div class="basic-big" style="top:248px;left:600px;"> Color: </div>
+	<div id="colorName" class="basic-small" style="top:251px;left:667px;"> </div>
+	<img id= "b-y" style="position:absolute; top:280px; left:600px; width: 20px; height: 20px;" src="./imgs/cy.png" alt="color">
+	<img id= "b-p" style="position:absolute; top:280px; left:640px; width: 20px; height: 20px;" src="./imgs/cp.png" alt="color">
+	<img id= "b-b" style="position:absolute; top:280px; left:680px; width: 20px; height: 20px;" src="./imgs/cb.png" alt="color">
+	<img id= "b-w" style="position:absolute; top:280px; left:720px; width: 20px; height: 20px;" src="./imgs/cw.png" alt="color">
+
+	<div class="basic-big" style="top:320px;left:600px;"> Filled with: </div>
+	
+	<select id="f" style="margin-left:710px;margin-top:322px;">
+	  <option value="d">Duck Down</option>
+	  <option value="m">Memory Foam</option>
+	  <option value="p">Hypoallergenic poly-blend</option>
+	</select>
+
+	<select id="q" style="margin-left:690px;margin-top:53px;">
+	  <option value="1">1</option>
+	  <option value="2">2</option>
+	  <option value="3">3</option>
+	  <option value="4">4</option>
+	  <option value="5">5</option>
+	</select>
+
+
+	<div class="basic-big" style="top:355px;left:600px;"> Size: </div>
+	<div class="basic-small" style="top:358px;left:650px;"> 16'' x 16'' </div>
+	<div class="basic-big" style="top:390px;left:600px;"> Quantity: </div>
+	<button type="button" style="top:387px;left:575px;" class="button-small">1 </button>
+<!-- 	<img style="position:absolute; top:400px;left:737px; width: 10px; height: 7px;" src="./imgs/Triangle.png" alt="arrow"> -->
+	<div class="basic-small" style="top:430px;left:600px;"> Shipping & Returns </div>
+	<img style="position:absolute; top:435px;left:737px; width: 10px; height: 7px;" src="./imgs/Triangle.png" alt="arrow">
+	<img id="atc" style="position:absolute; top:465px;left:600px; width: 140px; height: 35px;" src="./imgs/add.png" alt="arrow">
+	<p class="basic-small" style="top:505px;left:600px;"> <u>share this item</u> </p>
+
+	<!-- review -->
+	<img style="position:absolute; top:570px;left:100px; width: 740px; height: 260px;" src="./imgs/Customer%20Review.png" alt="review">
+	<p class="basic-small" style="top:830px;left:100px;"> <u>more reviews</u> </p>
+
+	<!-- email register -->
+	<div class="kf" style="	top:900px;
+	left:360px;">K e e p &nbsp; F L U F F i n g ?</div>
+	<button type="button" class="email" style="top:960px;
+	left:360px;">fluff-stuff@email.com </button>
+	<button type="button" class="sub" style="top:960px;
+	left:600px;">Subscribe </button>
+
+
+	<!-- back to top -->
+	<p class="basic-small" style="top:1020px;
+	left:500px;"> <u>back to top</u> </p>
+	<div style="font:10px Apple SD Gothic Neo;color: white;position:absolute;top:1070px;
+	left:360px;">- </div>
+
+</body>
+
+</html>

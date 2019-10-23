@@ -1,0 +1,152 @@
+/*header {
+    font-family: 'Roboto Slab', serif;
+    background-color: #E0BA87;
+    color: white;
+    padding: 10px;
+}*/
+
+body { 
+  margin: 0;
+}
+
+/*top header*/
+header {
+    overflow: hidden;
+    background-color: #E0BA87;
+    padding: 30px;
+}
+
+/*Fluff Staff*/
+.name {
+
+  color: #736654;  
+  padding: 10px;  
+  font-size: 23px; 
+  text-decoration: none;
+  font:Baskerville;
+}
+
+/*menue on header*/
+.menu {
+  display:inline;
+  color: #736654;  
+  padding: 6px;  
+  font-size: 18px; 
+  text-decoration: none;
+  font:sans-serif;
+}
+
+/*picture on homepage*/
+/*picture rotation learned from stackoverflow
+https://stackoverflow.com/questions/20061774/rotate-an-image-in-image-source-in-html*/
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: fixed;
+    top:-137px; 
+    left:300px; 
+    width:500px;
+    height:900px;
+}
+
+/*round pillow on homepage*/
+.rp {
+	position:absolute;
+	top:250px;
+	left:320px;
+	color:white;
+	font: bold 80px Apple SD Gothic Neo;
+	text-shadow: 3px 3px #4E4747;
+
+}
+
+/*round pillow button*/
+.button {
+    position:relative;
+    top: 380px;
+    left: 445px;
+    font-size:30px;
+    color: #808A8C;
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 12px;
+    padding: 10px 40px;
+}
+
+
+/*keep fluffing*/
+.kf{
+	position:absolute;
+	color:#7E7E7E;
+	font: bold 35px Baskerville;
+}
+
+ /*register email*/
+.email{
+	position:absolute;
+    font-size:12px;
+    color: #CAC0C0;
+    background: white;
+    border: none;
+    padding: 9px 60px;
+    border: 2px solid #807E63;
+}
+/*subscribe*/
+.sub{
+	position:absolute;
+    font-size:15px;
+    color: white;
+    background: #807E63;
+    border: none;
+    padding: 9.5px 33px;
+}
+
+.check{
+  position:absolute;
+    font-size:25px;
+    color: white;
+    background: #9B9982;
+    border: none;
+    padding: 9.5px 33px;
+}
+
+
+/*basic font*/
+.basic{
+	position:absolute;
+	font:18px Apple SD Gothic Neo;
+	color: #808A8C;
+	text-decoration: none;
+}
+
+/*bigger font*/
+.basic-big{
+	position:absolute;
+	font:20px Apple SD Gothic Neo;
+	color: #808A8C;
+	text-decoration: none;
+}
+
+/*smaller font*/
+.basic-small{
+	position:absolute;
+	font:16px Apple SD Gothic Neo;
+	color: #ACACAC;
+	text-decoration: none;
+}
+
+/*smaller button*/
+.button-small{
+    position:relative;
+    font:16px Apple SD Gothic Neo;
+	color: #ACACAC;
+    background: rgba(243, 243, 243, 1);
+    border: 1px solid #B5ADAD;
+    border-radius: 6px;
+    padding: 4px 20px;
+}
+
