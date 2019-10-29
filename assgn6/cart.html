@@ -12,7 +12,7 @@
 	<!-- styles -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="UTF-8">
-	<!-- <script src="web1.js" type="text/javascript"></script> -->
+	<script src="web1.js" type="text/javascript"></script>
 </head>
 
 <body onload="onLoad()">
@@ -48,10 +48,10 @@
 
 	<!-- cart quantity -->
 	<img id="cartCircle" style="position:absolute;top:22px;left:874px;width:17px;height:17px;" src="./imgs/red.png" alt="pic">
-	<div id="cq" class="basic-small" style="top:23px;left:878px; color:white; font:13px Apple SD Gothic Neo;" > 2</div>
+	<div id="cq" class="basic-small" style="top:23px;left:878px; color:white; font:13px Apple SD Gothic Neo;" > </div>
 
 	<!-- picutre -->
-	<img style="position:absolute;top:250px;left:90px; width:200px; height:150px"; src="./imgs/p1.png" alt="pic">
+	<!-- <img style="position:absolute;top:250px;left:90px; width:200px; height:150px"; src="./imgs/p1.png" alt="pic">
 	<div class="basic-big" style="top:260px;left:330px;"> Couch Pillow </div>
 	<div class="basic-small" style="top:290px;left:330px;"> $ 35 </div>
 	<div class="basic-small" style="top:320px;left:330px;"> Color: Morning Haze </div>
@@ -84,27 +84,34 @@
 	  <option value="3">3</option>
 	  <option value="4">4</option>
 	  <option value="5">5</option>
-	</select>
+	</select> -->
 
+	<!-- product info -->
 	<p id="empty" class="basic" style="top:320px;left:300px;"> </p> 
 	<div id="pp"> </div>
+<!-- 	<div id="cType"> </div>
+	<div id="cPrice"> </div>
 	<div id="cColor"> </div>
+	<div id="cFilling"> </div>
+	<div id="cQuantity"> </div>
+	<div id="cAmount"> </div>
+	<div id="cDelete"> </div>
+	<div id="cLike"> </div> -->
+
 
 	<!-- Order Summary -->
-
-	
 	<div style="position:absolute;top:210px;left:795px;font:25px Apple SD Gothic Neo;
 	color: #747373;">Order Summary</div>
 	<div class="basic" style="top:258px;left:790px;"> Subtotal </div>
-	<div class="basic" style="top:258px;left:950px;"> $0 </div>
+	<div id ="st" class="basic" style="top:258px;left:930px;"> </div>
 	<div class="basic" style="top:290px;left:790px;"> Shipping </div>
-	<div class="basic" style="top:290px;left:950px;"> $0 </div>
+	<div class="basic" style="top:290px;left:930px;"> $5 </div>
 	<div class="basic" style="top:325px;left:790px;"> Tax </div>
-	<div class="basic" style="top:325px;left:950px;"> $0 </div>
+	<div id="tax" class="basic" style="top:325px;left:930px;"> </div>
 	<img style="position:absolute;top:350px;left:787px;width:190px;height:3px;" src="./imgs/line.png" alt="pic">
 
 	<div class="basic-big" style="top:366px;left:790px;"> Total </div>
-	<div class="basic-big" style="top:366px;left:950px;"> $0 </div>
+	<div id="total" class="basic-big" style="top:366px;left:930px;"> </div>
 
 	<button type="button" class="check" style="top:400px;
 	left:786px;">Check &nbsp;Out </button>

@@ -43,21 +43,20 @@ function item(iFilling,iQuant,iColor,iName){
 
 // Document Load
 function onLoad () {
-	console.log("a");
 	// initial value
 	var product = new pink();
 	var picCount=1;
 
 	// keep track of total quantity
 	var tq = 0;
-	localStorage.setItem("savedTotalQuant", JSON.stringify(tq)); //temporary:clear storage 
+	 // localStorage.setItem("savedTotalQuant", JSON.stringify(tq)); //temporary:clear storage 
 	var totalQuant=JSON.parse(localStorage.getItem("savedTotalQuant"));
 	if (totalQuant==null){
 		localStorage.setItem("savedTotalQuant", JSON.stringify(tq));
 	}
 	// keep track of the items added in array 
 	var list=[];
-	localStorage.setItem("savedList", JSON.stringify(list));  //temporary:clear storage 
+	 // localStorage.setItem("savedList", JSON.stringify(list));  //temporary:clear storage 
 	var nowList = JSON.parse(localStorage.getItem("savedList")); 
 	if (nowList==null){
 		localStorage.setItem("savedList", JSON.stringify(list));
