@@ -97,7 +97,7 @@ function drawPic(productList, amount) {
 
 		// like
 		var p8=document.createElement("div");
-        var t8=document.createTextNode("Favorite this item");
+        var t8=document.createTextNode("Add to wish list");
         p8.appendChild(t8);
         p8.style = "position:absolute;top:"+ (360+170*i) +"px;left:580px;font:16px Apple SD Gothic Neo;color: #ACACAC; text-decoration: underline;";
         pic.appendChild(p8);
