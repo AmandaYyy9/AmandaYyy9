@@ -62,7 +62,7 @@ function onLoad () {
 		localStorage.setItem("savedList", JSON.stringify(list));
 	}
 
-	// store color, filling, and quantity
+	// add to cart: store color, filling, and quantity
 	document.getElementById("atc").addEventListener("click", function() {
 		// get values
 		var nowList = JSON.parse(localStorage.getItem("savedList"));
@@ -82,6 +82,24 @@ function onLoad () {
 		document.getElementById("cartQuant").textContent= s;
 
 	});
+
+	// add to wish list
+	var wlist=[];
+	 // localStorage.setItem("savedList", JSON.stringify(list));  //temporary:clear storage 
+	var wNowList = JSON.parse(localStorage.getItem("savedWishList")); 
+	if (wNowList==null){
+		localStorage.setItem("savedWishList", JSON.stringify(list));
+	}
+	document.getElementById("wl").addEventListener("click", function() {
+		// get values
+		var wNowList = JSON.parse(localStorage.getItem("savedWishList"));
+		var filling=document.getElementById("f").value;
+		var quant=Number(document.getElementById("q").value);
+		// push to item array
+		wNowList.push(new item(filling,quant,product.c,product.n));
+		localStorage.setItem("savedWishList", JSON.stringify(wNowList));
+	});
+
 
 	// initial pictures and color
 	document.getElementById("circle").setAttribute("src", "./imgs/red.png" );
