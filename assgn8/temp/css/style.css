@@ -8,6 +8,13 @@
 /* ==========================================================================
    Base Styles and Bootstrap Modifications
    ========================================================================== */
+.rotate20 {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
 
 #divfix {
        bottom: 0;
@@ -19,6 +26,10 @@
 /* Slide 1 */
 #slide-1 .bcg {background-image:url('../img/bkgd.png')}
 
+
+#Alice{
+visibility: hidden;
+}
 
 #s1{
 visibility: hidden;
@@ -323,6 +334,26 @@ a:before, a:after {
   -o-background-size: cover;
   background-size: cover;
   z-index: 1;
+}
+
+#story {
+  background: url(../img/blk.png) no-repeat center top;
+  margin-top: -50px;
+  padding-top: 120px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  height: 430%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #services1 {

@@ -55,7 +55,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothscroll">Story</a></li>
+            <li><a href="index2.html" class="smoothscroll">Story</a></li>
             <li> <a href="#about" class="smoothscroll"> Process</a></li>
 
             <li> <a href="#team" class="smoothscroll"> Summary</a></li>
@@ -467,6 +467,21 @@
   <div  id="pt1" name="team1">
   <div class="container" id="portfolio" name="portfolio">
     <img id="Alice" style="position: relative; height:500px ;top:-10px; left:30px;" src="img/Alice.png">
+
+            <script>
+          $(window).scroll(function() {
+            // alert("hello1");
+            $("#Alice").each(function(){
+            // alert("hello2");
+            var imagePos = $(this).offset().top;
+
+            var topOfWindow = $(window).scrollTop();
+              if (imagePos < topOfWindow+280) {
+                $(this).addClass("hatch");
+              }
+            });
+          });
+        </script>
     
 
   </div>
