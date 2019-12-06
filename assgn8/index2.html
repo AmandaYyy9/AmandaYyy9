@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Demo - How to create a parallax scrolling website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+        <link rel="stylesheet" href="assets/css/main.css">
+        <script src="assets/js/vendor/modernizr-2.7.1.min.js"></script>
+        <!-- Favicons -->
+
+        <link href="assets/img/hrtbeat.png" rel="icon">
+        <link href="assets/img/hrtbeat.png" rel="apple-touch-icon">
+         <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
+
+        <!-- Bootstrap CSS File -->
+        <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Libraries CSS Files -->
+        <link href="assets/lib/icomoon/icomoon.css" rel="stylesheet">
+
+        <!-- Main Stylesheet File -->
+        <link href="assets/css/style.css" rel="stylesheet">
+          <link rel="stylesheet" href="assets/css/animations.css">
+
+
+    </head>
+        <body  style="background-color:#F2F0EC;" data-spy="scroll" data-offset="58" data-target="#navbar-main">
+      <!-- navigation bar -->
+      <div id="navbar-main">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
+              <img style="position: relative; width:45px;height:25px; top: 15px; left: -40px;" src="assets/img/AD.png">
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#home" class="smoothscroll">Story</a></li>
+                <li> <a href="index.html" class="smoothscroll"> Process</a></li>
+                <li> <a href="#team" class="smoothscroll"> Summary</a></li>
+                <li> <a href="#portfolio" class="smoothscroll"> Alice</a></li>
+                <li> <a href="#contact" class="smoothscroll"> End</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<main>
+<section id="slide-3" class="homeSlide">
+
+<!-- Learned the following paralex scrolling from https://github.com/Prinzhorn/skroll, installed skrollr library -->
+        <!-- heartbeat -->
+        <div class="hsContent">
+          <div class="plaxEl"  data-top="opacity: 1;"  
+          data--20p-top="opacity: 1;" data--80p-top="opacity: 0;" 
+          data-bottom="opacity: 0; position: fixed; width: 100%; margin-left: 30%;margin-top:30%"  data-anchor-target="#slide-3">
+            <div style="font-size: 30px;">Just Keep Scrolling.</div>
+          </div>
+        </div>      
+
+        <!-- heartbeat -->
+        <div class="hsContent">
+          <div class="plaxEl"  data-top="opacity: 0;"  data--90p-top="opacity: 0;"
+          data--160p-top="opacity: 1;" data--190p-top="opacity: 0;" 
+          data-bottom="opacity: 0; position: fixed; width: 100%; "  data-anchor-target="#slide-3">
+            <div  ><img class="floating" style="position: relative;width:220px;height:200px; margin-left:40%;margin-top:20%" src="assets/img/hrtbeat.png"  ></div>
+          </div>
+        </div>
+     
+        <!-- AD -->    
+        <div class="hsContent">
+          <div class="plaxEl"  data-top="opacity: 0;"  data--1030p-top="opacity: 0"; data--1060p-top="opacity: 1;"
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div  ><img style="position: relative; width:550px; margin-left:13%;margin-top:35% " src="assets/img/asd.png"  ></div>
+          </div>
+        </div>
+
+        <!-- what -->        
+        <div class="hsContent">
+          <div class="plaxEl"  data-top="opacity: 0;"  data--1060p-top="opacity: 0"; data--1080p-top="opacity: 1;"
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div  ><img style="position: relative; width:320px; margin-left:10%;margin-top:9% " src="assets/img/what.png"  ></div>
+          </div>
+        </div>
+
+        <!-- is -->      
+        <div class="hsContent">
+          <div class="plaxEl"  data-top="opacity: 0;"  data--1100p-top="opacity: 0"; data--1120p-top="opacity: 1;"
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div  ><img style="position: relative; width:64px; margin-left:32%;margin-top:24% " src="assets/img/is.png"  ></div>
+          </div>
+        </div>
+
+        <!-- ? -->       
+        <div class="hsContent">
+          <div class="plaxEl"  data-top="opacity: 0;"  data--1120p-top="opacity: 0"; data--1140p-top="opacity: 1;"
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div  ><<img style="position: relative; width:45px; margin-left:62%;margin-top:49% " src="assets/img/q.png"  ></div>
+          </div>
+        </div>
+
+        <!-- circle -->       
+        <div class="hsContent">
+          <div class="plaxEl"  data-top="opacity: 0;"  data--1120p-top="opacity: 0"; data--1140p-top="opacity: 1;"
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+             <a href="index.html" ><div  ><img  class="pulse" style="position: relative; width:138px; margin-left:73%;margin-top:27% " src="assets/img/circle.png"  ></div></a>
+          </div>
+        </div>
+
+        <!-- 1 baby-->       
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--230p-top="opacity: 0;" data--280p-top="opacity: 1;" data--880p-top="opacity: 1;" data--920p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed; width: 100%; "  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:120px;height:120px;margin-left:35%;margin-top:46%" src="assets/img/1.png" ></div>
+          </div>
+        </div>
+
+        <!-- 2 family-->
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--290p-top="opacity: 0;" data--340p-top="opacity: 1;" data--980p-top="opacity: 1;" data--1020p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed;width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:320px; margin-left:58%;margin-top:30% " src="assets/img/2.png" ></div>
+          </div>
+        </div>
+
+        <!-- 3 sibling-->
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--310p-top="opacity: 0;" data--360p-top="opacity: 1;" data--880p-top="opacity: 1;" data--920p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:160px; margin-left:1%;margin-top:23%" src="assets/img/3.png" ></div>
+          </div>
+        </div>
+
+        <!-- 4 book-->        
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--340p-top="opacity: 0;" data--370p-top="opacity: 1;" data--820p-top="opacity: 1;" data--840p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed;width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:120px; margin-left:7%;margin-top:40%" src="assets/img/4.png"  class="rotate20"></div>
+          </div>
+        </div>
+
+        <!-- 5 graduate-->        
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--350p-top="opacity: 0;" data--370p-top="opacity: 0.6;" data--920p-top="opacity: 0.6;" data--940p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:100px; margin-left:20%;margin-top:33%" src="assets/img/5.png"  ></div>
+          </div>
+        </div>
+
+        <!-- 6 house-->        
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--370p-top="opacity: 0;" data--410p-top="opacity: 0.4;" data--940p-top="opacity: 0.4;" data--980p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:400px;margin-left:7%;margin-top:3%" src="assets/img/7.png"  ></div>
+          </div>
+        </div>       
+
+        <!-- 7 couple-->       
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--410p-top="opacity: 0;" data--460p-top="opacity: 1;" data--980p-top="opacity: 1;" data--1020p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:180px;margin-left:28%;margin-top:14%" src="assets/img/6.png"  ></div>
+          </div>
+        </div>
+
+         <!-- 8 key-->        
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--450p-top="opacity: 0;" data--480p-top="opacity: 1;" data--740p-top="opacity: 1;" data--780p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed;  width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:200px; margin-left:79%;margin-top:13%;" src="assets/img/8.png"   class="rotate20" ></div>
+          </div>
+        </div>
+
+        <!-- 9 computer-->        
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--480p-top="opacity: 0;" data--510p-top="opacity: 0.5;" data--830p-top="opacity: 0.5;" data--860p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed;width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:320px; margin-left:70%;margin-top:16%;" src="assets/img/9.png"   class="rotate20" ></div>
+          </div>
+        </div>
+
+        <!-- 10 money-->       
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--510p-top="opacity: 0;" data--540p-top="opacity: 0.3;" data--860p-top="opacity: 0.3;" data--880p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:610px; margin-left:32%;margin-top:10%;" src="assets/img/10.png"   class="rotate20" ></div>
+          </div>
+        </div>
+
+        <!-- 11 car-->        
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--540p-top="opacity: 0;" data--570p-top="opacity: 1;" data--780p-top="opacity: 1;" data--820p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:220px;margin-left:62%;margin-top:12%;" src="assets/img/11.png"    ></div>
+          </div>
+        </div>
+
+        <!-- 12 map-->        
+        <div class="hsContent">
+          <div class="plaxEl"  
+          data-top="opacity: 0;"  data--570p-top="opacity: 0;" data--600p-top="opacity: 1;" data--680p-top="opacity: 1;" data--720p-top="opacity: 0;"  
+          data-bottom="opacity: 0; position: fixed; width: 100%;"  data-anchor-target="#slide-3">
+            <div ><img style="position: relative; width:220px;margin-left:42%;margin-top:18%;" src="assets/img/12.png"    ></div>
+          </div>
+        </div>
+
+
+      
+    </div>
+    </section>
+        
+    </main>
+
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="assets/js/imagesloaded.js"></script>
+        <script src="assets/js/skrollr.js"></script>
+        <script src="assets/js/main2.js"></script>
+
+    </body>
+</html>
+
