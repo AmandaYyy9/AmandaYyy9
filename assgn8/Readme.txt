@@ -1,7 +1,7 @@
 Part 1: 
-1. The purpose of the website is to introduce Alzheimer’s Disease to people who didn’t have much knowledge about it. Besides the scientific knowledge, audiences can can also learn about the life of Alzheimer’s patients.
+1. The purpose of the website is to introduce Alzheimer’s Disease to people who didn’t have much knowledge about it. Besides the scientific knowledge, audiences can also learn about the life of Alzheimer’s patients.
 2. I included the definition of the disease, the scientific explanation of its cause, different stages of the disease, current situation, movie clip about the disease, and a process of how people go through the disease. 
-3. One interesting part of the website is its interactive story-telling section. When people can click on the story section and scroll the page to view the process of how Alzheimer’s patients store and gradually lose memory. Usually, people only have access to the scientific knowledge of this kind of diseases. My design of the interactive story section may convey a sense of empathy and help users understand the disease from another perspective. Also, I included many animation effects in the website, so users will have an engaging experience when scrolling through the web pages. 
+3. One interesting part of the website is its interactive story-telling section. People can click on the story section and scroll the page to view the process of how Alzheimer’s patients gain and gradually lose memory. Usually, people only have access to the scientific knowledge of this kind of diseases. My design of the interactive story section may convey a sense of empathy and help users understand the disease from another perspective. Also, I included many animation effects in the website, so users will have an engaging experience when scrolling through the web pages. 
 4. Target audiences are people who are interested in Alzheimer’s disease but haven’t had much knowledge about it. 
 
 Part 2:
